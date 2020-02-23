@@ -131,3 +131,57 @@
 	.navigation li a:hover{
     color: #f06c64;
 }
+	.promo-slider{
+    height: 595px;
+    background-color: #f06c64;
+    border-bottom: 5px solid #ea676b;
+}
+	.promo-slider .container{
+    position:relative;
+}
+	button{
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    padding:8px;
+}
+	.arrow {
+    border: solid #ca4549;
+    border-width: 0 5px 5px 0;
+    border-radius: 3px;
+    position: absolute;
+    top:283px;
+}
+	.arrow:hover{
+    opacity:0.4;
+    cursor: pointer;
+}
+	.previous{
+    transform: rotate(135deg);
+    left:45px;
+}
+	.next{
+    transform: rotate(-45deg);
+    right:42px;
+}
+	.phone{
+    position: absolute;
+    background-image: url('img/iPhone Vertical.png');
+    background-repeat: no-repeat;
+    width: 240px;
+    height: 483px;
+    left:112px;
+    top:53px;
+}
+	.phone::after{
+    content: "";
+    position: absolute;
+    background-image: url('img/iPhone Horizontal.png');
+    background-repeat: no-repeat;
+    width: 483px;
+    height: 240px;
+    left:313px;
+    top:121px;
+}
