@@ -168,7 +168,7 @@
 }
 	.phone{
     position: absolute;
-    background-image: url('img/iPhone Vertical.png');
+    background-image: url('assets/img/iPhone Vertical.png');
     background-repeat: no-repeat;
     width: 240px;
     height: 483px;
@@ -178,7 +178,7 @@
 	.phone::after{
     content: "";
     position: absolute;
-    background-image: url('img/iPhone Horizontal.png');
+    background-image: url('assets/img/iPhone Horizontal.png');
     background-repeat: no-repeat;
     width: 483px;
     height: 240px;
