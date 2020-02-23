@@ -185,3 +185,83 @@
     left:313px;
     top:121px;
 }
+	.services{
+    height: 496px;
+    background-color: #f2f2f2;
+}
+	.services__title{
+    font-family: 'Lato Black', Arial, sans-serif;
+    font-size: 3.1rem;
+    line-height: 0.55;
+    color: #666d89;
+    padding:70px 0 28px 0;
+    letter-spacing: -0.021em;
+}
+	.services__description{
+    font-family: 'Lato Light', Arial, sans-serif;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #767e9e;
+    text-align: justify;
+}
+	.layout-3-columns{
+    margin-top: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+	.cards{
+    width:301px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+    /*margin-right:2px;*/
+}
+	.cards__content{
+    padding-left:9px;
+    width:220px;
+}
+	.cards__icon{
+    width: 61px;
+    height:61px;
+}
+	.cards__icon_pen{
+    background-image: url('assets/img/pen.svg');
+    background-repeat: no-repeat;
+}
+	.cards__icon_bulb{
+    background-image: url('assets/img/lightbulb.svg');
+    background-repeat: no-repeat;
+}
+	.cards__icon_heart{
+    background-image: url('assets/img/heart.svg');
+    background-repeat: no-repeat;
+}
+	.cards__icon_phone{
+    background-image: url('assets/img/phone.svg');
+    background-repeat: no-repeat;
+}
+	.cards__icon_bubble{
+    background-image: url('assets/img/bubble.svg');
+    background-repeat: no-repeat;
+}
+	.cards__icon_star{
+    background-image: url('assets/img/star.svg');
+    background-repeat: no-repeat;
+}
+	.cards__title{
+	font-family: 'Lato Black', Arial, sans-serif;
+	font-size: 1.95rem;
+	line-height: 0.7;
+	text-align: justify;
+	color: #666d89;
+	padding-bottom: 13px;
+    letter-spacing: -0.054em;
+}
+	.cards__description{
+	font-family: 'Lato Regular', Arial, sans-serif;
+	font-size: 1.2rem;
+	line-height: 1.83;
+	text-align: justify;
+	color: #767e9e;
+}
