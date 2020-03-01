@@ -99,8 +99,11 @@ body{
     letter-spacing: normal;
     text-align: justify;
     color: #767e9e;
-    padding:3px 7px;
-    margin-right: 2px;
+    padding:2.5px 6.7px;
+}
+.tag:not(:first-child){
+    margin-left: 4px;
+    padding:2.5px 6px;
 }
 .tag:hover{
     cursor: pointer;
