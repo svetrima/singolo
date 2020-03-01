@@ -123,9 +123,11 @@ body{
 }
 .layout-4-columns{
     margin-top: 18.5px;
+    height: 621px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    overflow: hidden;
 }
 .gallery-block{
     width: 220px;
