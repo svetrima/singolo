@@ -211,20 +211,20 @@ textarea {
 }
 
 .icon-location {
-    background: url('location.png') no-repeat left center;
+    background: url('assets/img/location.png') no-repeat left center;
     padding-right: 21px;
     margin-left: 3px;
 }
 
 .icon-phone {
-    background: url('phone.png') no-repeat left center;
+    background: url('assets/img/phone-small.png') no-repeat left center;
     width: 11px;
     height: 11px;
     padding-right: 24px;
 }
 
 .icon-email {
-    background: url('mail.png') no-repeat left center;
+    background: url('assets/img/mail.png') no-repeat left center;
     width: 13px;
     height: 8px;
     padding-right: 24px;
