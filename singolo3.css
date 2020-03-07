@@ -105,7 +105,7 @@ body {
 
 .contact__description {
     font-family: "Lato Light", Arial, sans-serif;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 300;
     font-stretch: normal;
     font-style: normal;
@@ -114,4 +114,179 @@ body {
     text-align: justify;
     color: #f0d8d9;
     padding-bottom: 45px;
+}
+.layout-2-columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+form {
+    width: 619px;
+}
+
+input,
+textarea {
+    width: 100%;
+    background-color: #d6564f;
+    border: none;
+    height: 38px;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 13px 15px;
+    color: #f0d8d9;
+}
+
+input[type="submit"] {
+    width: 50%;
+    color: #832e31;
+    background-color: #ddccf3;
+    font-family: "Lato Regular", Arial, sans-serif;
+    font-size: 1.8rem;
+    line-height: 1.83;
+    padding: 0;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    color: #ddccf3;
+    background-color: #832e31;
+}
+
+input::placeholder,
+textarea::placeholder {
+    font-family: "Lato Regular", Arial, sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.83;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #f48c8f;
+}
+
+textarea {
+    resize: none;
+    height: 202px;
+    padding-top: 8px;
+}
+
+.contact-info {
+    width: 300px;
+}
+
+.contact-info__title {
+    font-family: "Lato Black", Arial, sans-serif;
+    font-size: 1.8rem;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #f0d8d9;
+    padding-bottom: 11px;
+}
+
+.contact-info__description {
+    font-family: "Lato Regular", Arial, sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.83;
+    letter-spacing: -0.0025em;
+    text-align: justify;
+    color: #f0d8d9;
+    padding-bottom: 25px;
+}
+
+.contact-info a {
+    display: block;
+    padding-bottom: 8px;
+    text-decoration: none;
+    font-family: "Lato Regular", Arial, sans-serif;
+    font-size: 1.15rem;
+    color: #f0d8d9;
+    text-align: justify;
+    letter-spacing: 0.017em;
+}
+
+.contact-info a:hover {
+    color: rgb(46, 10, 177);
+}
+
+.icon-location {
+    background: url('location.png') no-repeat left center;
+    padding-right: 21px;
+    margin-left: 3px;
+}
+
+.icon-phone {
+    background: url('phone.png') no-repeat left center;
+    width: 11px;
+    height: 11px;
+    padding-right: 24px;
+}
+
+.icon-email {
+    background: url('mail.png') no-repeat left center;
+    width: 13px;
+    height: 8px;
+    padding-right: 24px;
+}
+
+.footer__description {
+    height: 76px;
+    background-color: #2d303a;
+}
+
+.footer__description .container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.footer__author {
+    color: #fff;
+    font-family: 'Lato Regular', Arial, sans-serif;
+    font-size: 1.25rem;
+    letter-spacing: -0.036em;
+    padding-left: 4px;
+    line-height: 6;
+    align-self: center;
+}
+
+.footer__social-icon {
+    margin-left: 0.5px;
+    margin-top: 22.7px;
+    display: inline-block;
+}
+
+.footer__social {
+    width: 32px;
+    height: 32px;
+    padding-right: 2px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url('assets/img/sprite-social.png');
+}
+
+.footer__social:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.footer__social:last-child {
+    padding-right: 0px;
+}
+
+.icon-fb {
+    background-position: 0px 0px;
+}
+
+.icon-ggl {
+    background-position: -40px 0px;
+}
+
+.icon-tw {
+    background-position: -80px 0px;
+}
+
+.icon-linkedin {
+    background-position: -120px 0px;
 }
