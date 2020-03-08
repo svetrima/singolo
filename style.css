@@ -665,14 +665,10 @@ input[type="submit"]:hover {
 }
 
 input::placeholder,
-input::-webkit-input-placeholder,
-input:-ms-input-placeholder,
-input::-ms-input-placeholder,
-input::-moz-placeholder,
 textarea::placeholder {
     font-family: "Lato Regular", Arial, sans-serif;
     font-size: 1.2rem;
-    line-height: 1.83;
+    /* line-height: 1.83;*/
     letter-spacing: normal;
     text-align: justify;
     color: #f48c8f;
@@ -727,6 +723,7 @@ textarea {
     background: url('assets/img/location.png') no-repeat left center;
     padding-right: 21px;
     margin-left: 3px;
+    padding-top: 2px;
 }
 
 .icon-phone {
