@@ -665,6 +665,10 @@ input[type="submit"]:hover {
 }
 
 input::placeholder,
+input::-webkit-input-placeholder,
+input:-ms-input-placeholder,
+input::-ms-input-placeholder,
+input::-moz-placeholder,
 textarea::placeholder {
     font-family: "Lato Regular", Arial, sans-serif;
     font-size: 1.2rem;
