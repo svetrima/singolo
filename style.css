@@ -500,6 +500,7 @@ button {
     letter-spacing: normal;
     text-align: justify;
     color: #767e9e;
+    overflow: hidden;
 }
 
 .cards-about {
@@ -526,6 +527,7 @@ button {
     line-height: 1.83;
     text-align: justify;
     color: #767e9e;
+    overflow: hidden;
 }
 
 .align__description {
