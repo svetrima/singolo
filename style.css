@@ -146,13 +146,17 @@ header {
 .navigation li a {
     text-decoration: none;
     text-transform: uppercase;
-    color: #fff;
     font-family: "Lato Bold", Arial, sans-serif;
     font-size: 1.25rem;
     letter-spacing: -0.036em;
     line-height: 1;
 }
-
+.navigation li a:not(.active) {
+    color: #fff;
+}
+.active {
+    color: #f06c64;
+}
 .navigation li a:hover {
     color: #f06c64;
 }
