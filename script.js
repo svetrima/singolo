@@ -1,4 +1,4 @@
-const menuLinks = document.querySelector('navigation');
+const menuLinks = document.querySelector('.navigation');
 const portfolioTags = document.querySelector('.portfolio__tags');
 const portfolioGalleryBlock = document.querySelector('.gallery-block');
 

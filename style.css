@@ -532,6 +532,7 @@ button {
     text-align: justify;
     color: #767e9e;
     overflow: hidden;
+	height: 64.8px;
 }
 
 .align__description {
@@ -541,6 +542,9 @@ button {
 
 .align-title {
     letter-spacing: -0.05em;
+	height:13.6px;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .cards__avatar {
