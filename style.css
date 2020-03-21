@@ -664,6 +664,7 @@ textarea {
     box-sizing: border-box;
     padding: 13px 15px;
     color: #f0d8d9;
+    overflow-wrap: break-word;
 }
 
 input[type="submit"] {
