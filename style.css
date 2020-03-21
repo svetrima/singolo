@@ -727,6 +727,7 @@ textarea {
     padding: 20px;
     border-radius: 7px;
 	width:40%;
+	overflow-wrap: break-word;
 }
 
 .popup-message p {
