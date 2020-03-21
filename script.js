@@ -34,8 +34,8 @@ const buttonClose = document.getElementById('close-btn');
 buttonSubmit.addEventListener('click', () => {
     const inputSubject = document.getElementById('subject').value.toString();
     const textField = document.getElementById('text-field').value;
-    //  const inputEmail = document.getElementById('email').value;
-    //  const inputName = document.getElementById('name').value;
+   // const inputEmail = document.getElementById('email').value.toString();
+   // const inputName = document.getElementById('name').value.toString();
     if (inputSubject == '') {
         document.getElementById('theme').innerText = 'Без темы';
     } else {

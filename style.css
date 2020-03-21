@@ -713,6 +713,7 @@ textarea {
     position: absolute;
     left: 50%;
     top: 50%;
+	transform: translate(-50%, -50%);
     border: 1px solid black;
     background-color: rgba(242, 99, 104, 0.94);
     font-family: "Lato Light", Arial, sans-serif;
@@ -724,6 +725,7 @@ textarea {
     color: #f0d8d9;
     padding: 20px;
     border-radius: 7px;
+	width:40%;
 }
 
 .popup-message p {
@@ -806,7 +808,7 @@ textarea {
 }
 
 .footer__author {
-    color: #fff;
+    color: #767e9e;
     font-family: "Lato Regular", Arial, sans-serif;
     font-size: 1.25rem;
     letter-spacing: -0.036em;
