@@ -195,13 +195,21 @@
             <p class="contact__description">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
             <div class="layout-2-columns">
                 <div class="form-feedback">
-                    <form action="" method="GET">
+                    <form action="" method="GET" id="form-feedback">
                         <input type="text" name="Name" id="Name" placeholder="Name (Required)" required>
                         <input type="email" name="email" id="email" placeholder="Email (Required)" required>
                         <input type="text" name="subject" id="subject" placeholder="Subject">
                         <textarea name="text-field" id="text-field" placeholder="Describe your project in detail..."></textarea>
-                        <input type="submit" value="Submit" class="submit__button">
+                        <input type="submit" value="Submit" id="submit" class="submit__button">
                     </form>
+                    <div id="popup-block" class="hidden">
+                        <div class="popup-message">
+                            <p>Письмо отправлено</p>
+                            <p id="theme"></p>
+                            <p id="description"></p>
+                            <input type="submit" value="close" id="close-btn" class="submit__button">
+                        </div>
+                    </div>
                 </div>
                 <div class="contact-info">
                     <h3 class="contact-info__title">Contact Information</h3>
