@@ -968,10 +968,14 @@ textarea {
     .phone {
         background-image: url('assets/img/phone-vertical_tablet768.png');
         left: 83px;
+		width:180.85px;
+		height:353.74px;
     }
     .phone::after {
         background-image: url('assets/img/phone-horizontal_tablet768.png');
         left: 259px;
+		width:364.21px;
+		height:180.93px;
     }
 }
 /*375*/
@@ -1148,7 +1152,7 @@ textarea {
         transform: translateY(-50%);
     }
     .arrow {
-        top: 45%;
+        top: 98.65px;
     }
     .previous {
         left: 12.76px;
