@@ -862,3 +862,115 @@ textarea {
 .icon-linkedin {
     background-position: -120px 0px;
 }
+/* media*/
+
+@media screen and (min-width:768px) and (max-width:1019px) {
+    body {
+        min-width: 768px;
+    }
+    /*form*/
+    form {
+        width: 442px;
+    }
+    textarea {
+        height: 159px;
+    }
+    .contact-info {
+        width: 221px;
+    }
+    /*about us*/
+    .container {
+        max-width: 688px;
+    }
+    .cards-about {
+        width: 219px;
+    }
+    .cards__avatar {
+        height: 219px;
+    }
+    .ava-one {
+        background-image: url('assets/img/team__block/photo-tablet768.jpg');
+    }
+    .ava-two {
+        background-image: url('assets/img/team__block/photo-2_tablet768.jpg');
+    }
+    .ava-three {
+        background-image: url('assets/img/team__block/photo-3_tablet768.jpg');
+    }
+    /*portfolio*/
+    .portfolio {
+        height: 1102px;
+    }
+    .gallery-block {
+        width: 217px;
+        height: 184px;
+    }
+    .item-1 {
+        height: 100%;
+        background-image: url('assets/img/portfolio_block/1_tablet768.jpg');
+    }
+    .item-2 {
+        height: 100%;
+        background-image: url('assets/img/portfolio_block/2_tablet768.jpg');
+    }
+    .item-3 {
+        height: 100%;
+        background-image: url('assets/img/portfolio_block/3_tablet768.jpg');
+    }
+    .item-4 {
+        height: 100%;
+        background-image: url('assets/img/portfolio_block/4_tablet768.jpg');
+    }
+    .item-5 {
+        height: 100%;
+        background-image: url('assets/img/portfolio_block/5_tablet768.jpg');
+    }
+    .item-6 {
+        height: 100%;
+        background-image: url('assets/img/portfolio_block/6_tablet768.jpg');
+    }
+    .item-7 {
+        height: 100%;
+        background-image: url('assets/img/portfolio_block/7_tablet768.jpg');
+    }
+    .item-8 {
+        height: 100%;
+        background-image: url('assets/img/portfolio_block/8_tablet768.jpg');
+    }
+    .item-9 {
+        height: 100%;
+        background-image: url('assets/img/portfolio_block/9_tablet768.jpg');
+    }
+    .item-10 {
+        height: 100%;
+        background-image: url('assets/img/portfolio_block/10_tablet768.jpg');
+    }
+    .item-11 {
+        height: 100%;
+        background-image: url('assets/img/portfolio_block/11_tablet768.jpg');
+    }
+    .item-12 {
+        height: 100%;
+        background-image: url('assets/img/portfolio_block/12_tablet768.jpg');
+    }
+    /*our services*/
+    .services {
+        height: 571px;
+        padding-bottom: 64px;
+    }
+    /*slider*/
+    .promo-slider {
+        height: 452px;
+    }
+    .arrow {
+        top: 50%;
+    }
+    .phone {
+        background-image: url('assets/img/phone-vertical_tablet768.png');
+        left: 83px;
+    }
+    .phone::after {
+        background-image: url('assets/img/phone-horizontal_tablet768.png');
+        left: 259px;
+    }
+}
