@@ -92,7 +92,7 @@ header {
     background-color: #2d303a;
     border-bottom: 6px solid#323746;
 	/*sticky header for scroll*/
-    position: fixed;
+    position: sticky;
     width: 100%;
     top: 0;
     z-index: 100;
