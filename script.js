@@ -58,7 +58,7 @@ buttonSubmit.addEventListener('click', (el) => {
 	
 	if (inputEmail && inputName) {
         el.preventDefault();
-    }
+    
     if (inputSubject == '') {
         document.getElementById('theme').innerText = 'Без темы';
     } else {
@@ -71,7 +71,7 @@ buttonSubmit.addEventListener('click', (el) => {
     }
 
     document.getElementById('popup-block').classList.remove('hidden');
-
+	}
 })
 buttonClose.addEventListener('click', () => {
     document.getElementById('theme').innerText = '';
