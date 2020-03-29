@@ -1179,9 +1179,15 @@ textarea {
         justify-content: space-between;
     }
     h1 {
-        align-items: center;
+        margin:0 auto;
 		order: 2;
         z-index: 2;
+    }
+	.logo {
+        transition: all 0.7s linear;
+    }
+	.logo.show {
+        margin-left: -50%;
     }
     .header__navigation {
         background: #2D303A;
@@ -1191,7 +1197,19 @@ textarea {
         position: fixed;
         top: 0;
         left: -90vw;
-        transition: all 300ms ease-in-out;
+        transition: all 0.6s ease-in-out;
+    }
+	body.overlay::before {
+        content: '';
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(10, 0, 5, 0.79);
+        transition: all 0.6s ease-in-out;
+        z-index: 100;
     }
     .header__navigation li {
         margin: 27px 0px;
@@ -1233,7 +1251,7 @@ textarea {
         transition: all 0.3s linear;
     }
     .burger-menu.show span {
-        transform: rotate(-90deg);
+        /*transform: rotate(-90deg);*/
     }
     .burger-menu.show span::before {
         transform: rotate(180deg);
