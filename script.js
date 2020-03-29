@@ -31,11 +31,15 @@ portfolioGalleryBlock.addEventListener('click', (event) => {
 const buttonSubmit = document.getElementById('submit');
 const buttonClose = document.getElementById('close-btn');
 
-buttonSubmit.addEventListener('click', () => {
+buttonSubmit.addEventListener('click', (el) => {
     const inputSubject = document.getElementById('subject').value.toString();
     const textField = document.getElementById('text-field').value;
-   // const inputEmail = document.getElementById('email').value.toString();
-   // const inputName = document.getElementById('name').value.toString();
+    const inputEmail = document.getElementById('email').value.toString();
+    const inputName = document.getElementById('Name').value.toString();
+	
+	if (inputEmail && inputName) {
+        el.preventDefault();
+    }
     if (inputSubject == '') {
         document.getElementById('theme').innerText = 'Без темы';
     } else {
@@ -56,3 +60,12 @@ buttonClose.addEventListener('click', () => {
     document.getElementById('popup-block').classList.add('hidden');
     document.getElementById('form-feedback').reset();
 })
+//burger
+	const clickBurger = document.getElementById('burger');
+	clickBurger.addEventListener('click', (e) => {
+    e.preventDefault();
+    document.querySelector('.burger-menu').classList.toggle('show');
+    document.querySelector('.header__navigation').classList.toggle('show');
+    document.querySelector('.logo').classList.toggle('show');
+    document.querySelector('body').classList.toggle('overlay');
+});
