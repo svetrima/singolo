@@ -1219,7 +1219,7 @@ textarea {
     .header__navigation li a {
         font-size: 2.4rem;
         display: block;
-        padding-left: 61px;
+        padding-left: 21px;
     }
     .navigation li::after {
         display: none;
