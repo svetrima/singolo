@@ -1254,7 +1254,8 @@ textarea {
         transition: all 0.3s linear;
     }
     .burger-menu.show span {
-        /*transform: rotate(-90deg);*/
+        transform: rotate(-90deg);
+        top: 17px;
     }
     .burger-menu.show span::before {
         transform: rotate(180deg);
@@ -1554,7 +1555,8 @@ textarea {
         transition: all 0.3s linear;
     }
     .burger-menu.show span {
-        /*transform: rotate(-90deg);*/
+        transform: rotate(-90deg);
+        top: 17px;
     }
     .burger-menu.show span::before {
         transform: rotate(180deg);

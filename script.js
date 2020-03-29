@@ -8,7 +8,26 @@ menuLinks.addEventListener('click', (event) => {
         menuLinks.querySelectorAll('a').forEach(el => el.classList.remove('active'));
         event.target.classList.add('active');
     })
+//scroll
+const menuScrollLinks = document.querySelector('.navigation');
+document.addEventListener('scroll', onScroll);
 
+function onScroll(event) {
+    const currentSection = document.querySelectorAll('section');
+    const currentPosition = window.scrollY;
+    const menuLinks = document.querySelector('.navigation');
+
+    currentSection.forEach(el => {
+        if (el.offsetTop - 89 <= currentPosition && el.offsetTop - 89 + el.offsetHeight >= currentPosition || currentPosition + el.offsetHeight >= 3528) {
+            menuLinks.querySelectorAll('a').forEach(e => {
+                e.classList.remove('active');
+                if (el.getAttribute('id') == e.getAttribute('href').substring(1)) {
+                    e.classList.add('active');
+                }
+            })
+        }
+    })
+}
 //portfolio tags
 portfolioTags.addEventListener('click', (event) => {
     portfolioTags.querySelectorAll('span').forEach(el => el.classList.remove('tag_selected'));
