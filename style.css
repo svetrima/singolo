@@ -1180,20 +1180,22 @@ textarea {
     }
     h1 {
         align-items: center;
+		order: 2;
+        z-index: 2;
     }
     .header__navigation {
         background: #2D303A;
         box-shadow: 0px -40px 20px rgba(0, 0, 0, 0.4);
-        width: 278px;
-        position: absolute;
+        width: 90vw;
+        height: 100vh;
+        position: fixed;
         top: 0;
-        left: 0;
-        display: none;
+        left: -90vw;
+        transition: all 300ms ease-in-out;
     }
     .header__navigation li {
         margin: 27px 0px;
         margin-right: 0;
-        border: 1px solid white;
     }
     .header__navigation li a {
         font-size: 2.4rem;
@@ -1207,7 +1209,53 @@ textarea {
         display: flex;
         flex-direction: column;
         padding: 10px;
+		margin-top: 60px;
     }
+	/*burger*/
+    .burger-menu {
+        display: block;
+        width: 25px;
+        height: 40px;
+        position: relative;
+        order: 1;
+        z-index: 2;
+    }
+    .burger-menu span,
+    .burger-menu span::before,
+    .burger-menu span::after {
+        width: 25px;
+        height: 2.4px;
+        position: absolute;
+        top: 10px;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+        left: 0;
+        transition: all 0.3s linear;
+    }
+    .burger-menu.show span {
+        transform: rotate(-90deg);
+    }
+    .burger-menu.show span::before {
+        transform: rotate(180deg);
+    }
+    .burger-menu.show span::after {
+        transform: rotate(-180deg);
+    }
+    .burger-menu span::before,
+    .burger-menu span::after {
+        content: '';
+    }
+    .burger-menu span::before {
+        top: 8px;
+    }
+    .burger-menu span::after {
+        top: 16px;
+    }
+    .header__navigation.show {
+        display: block;
+        left: 0;
+    }
+	
 }
 
 

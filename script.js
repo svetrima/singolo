@@ -56,3 +56,10 @@ buttonClose.addEventListener('click', () => {
     document.getElementById('popup-block').classList.add('hidden');
     document.getElementById('form-feedback').reset();
 })
+//burger
+	const clickBurger = document.getElementById('burger');
+	clickBurger.addEventListener('click', (e) => {
+    e.preventDefault();
+    document.querySelector('.burger-menu').classList.toggle('show');
+    document.querySelector('.header__navigation').classList.toggle('show');
+});
